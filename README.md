@@ -1,16 +1,36 @@
-# card_app
+<p align="center">
+      <img src="https://user-images.githubusercontent.com/73318684/178038062-99ed7040-b34a-4015-85a5-7a7b56a08940.png" width="150" alt="Logo JobTimer"/>
 
-A new Flutter project.
+<h2 align="center"> Card simples explorando widgets do flutter e url launcher! </br></br> 
 
-## Getting Started
+<img src="https://img.shields.io/badge/dart-C.svg?style=for-the-badge&logo=dart&color=152030">
+<img src="https://img.shields.io/badge/flutter-C.svg?style=for-the-badge&logo=flutter&color=0468D7"> 
+<img src="https://img.shields.io/badge/Visual%20Studio%20Code-%23323330.svg?style=for-the-badge&logo=visual-studio-code&logoColor=FFFFFF&color=2F74C0">   </h2>
 
-This project is a starting point for a Flutter application.
+<h2> Sobre </h2>
+<p >
+  Projeto para testar novas coisas dentro do flutter
+</p>  
 
-A few resources to get you started if this is your first Flutter project:
+### Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [x] Link direto com as redes sociais
+- [x] AlertDialog
+- [ ] Receber dados e arquivos do celular para montar o card automaticamente(TO-DO)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<h2> Telas </h2>  
+<p> Main page </p> 
+<img src="https://user-images.githubusercontent.com/73318684/178040105-494e67aa-09eb-437d-8a4f-12bfdf6b3f61.jpg" width="200" alt="Logo MainPage"/>   
+
+
+
+
+
+
+
+   
+   >Esse projeto foi desenvolvido ❤️ por **[@erimedeiros](https://www.linkedin.com/in/erimedeiros/)**,<br> 
+
+   ---
+  
