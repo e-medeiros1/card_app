@@ -139,6 +139,8 @@ class _CardAppState extends State<CardApp> {
                   image: AssetImage('assets/images/github.png'),
                   color: Colors.deepOrange,
                   width: 27,
+                  fit: BoxFit.cover,
+                  filterQuality: FilterQuality.high,
                 )),
             onTap: () {
               setState(() {

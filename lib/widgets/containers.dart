@@ -13,8 +13,8 @@ class Containers extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 12.0),
+    Size size = MediaQuery.of(context).size;
+    return Center(
       child: Container(
         //Shadows
         decoration: BoxDecoration(
@@ -31,7 +31,7 @@ class Containers extends StatelessWidget {
           color: Colors.white,
         ),
         height: 50,
-        width: double.infinity,
+        width: size.width * 0.85,
         padding: const EdgeInsets.symmetric(horizontal: 20),
         //Icons
         child: Row(children: [
