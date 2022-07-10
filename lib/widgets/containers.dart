@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
-
 // ignore: must_be_immutable
 class Containers extends StatelessWidget {
   String text;
-  IconData? icon;
+  Widget? icon;
+  Widget? image;
 
-  Containers({Key? key, required this.text, required this.icon})
+  Containers({Key? key, required this.text, this.icon}) : super(key: key);
+
+  Containers.image({Key? key, required this.text, this.image})
       : super(key: key);
 
   @override
@@ -14,6 +16,7 @@ class Containers extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: Container(
+        //Shadows
         decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(
@@ -30,15 +33,22 @@ class Containers extends StatelessWidget {
         height: 50,
         width: double.infinity,
         padding: const EdgeInsets.symmetric(horizontal: 20),
+        //Icons
         child: Row(children: [
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 15.0),
-            child: Icon(icon, color: Colors.deepOrange),
+            padding: const EdgeInsets.only(left: 10),
+            child: image,
           ),
+          Padding(
+            padding: const EdgeInsets.only(right: 15),
+            child: icon,
+          ),
+          //Texts
           Text(text,
               style: const TextStyle(
-                fontFamily: 'SourceSansPro',
-                  fontSize: 20, color: Colors.deepOrange)),
+                  fontFamily: 'SourceSansPro',
+                  fontSize: 20,
+                  color: Colors.deepOrange)),
         ]),
       ),
     );

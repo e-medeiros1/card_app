@@ -108,7 +108,12 @@ class _CardAppState extends State<CardApp> {
                 _launched = _launchWhatsapp(toWhatsapp!);
               });
             },
-            child: Containers(text: 'Whatsapp', icon: Icons.whatsapp),
+            child: Containers(
+                text: 'Whatsapp',
+                icon: const Icon(
+                  Icons.whatsapp,
+                  color: Colors.deepOrange,
+                )),
           ),
           const SizedBox(height: 20),
           //Gmail
@@ -118,13 +123,23 @@ class _CardAppState extends State<CardApp> {
                 _launched = _launchInMail(emailLaunchUri);
               });
             },
-            child: Containers(text: 'Gmail', icon: Icons.email_outlined),
+            child: Containers(
+                text: 'Gmail',
+                icon: const Icon(
+                  Icons.email_outlined,
+                  color: Colors.deepOrange,
+                )),
           ),
           const SizedBox(height: 20),
           //Github
           InkWell(
-            child:
-                Containers(text: 'Github', icon: Icons.phone_android_outlined),
+            child: Containers.image(
+                text: 'Github',
+                image: const Image(
+                  image: AssetImage('assets/images/github.png'),
+                  color: Colors.deepOrange,
+                  width: 27,
+                )),
             onTap: () {
               setState(() {
                 _launched = _launchInWeb(toLaunch);
@@ -139,9 +154,15 @@ class _CardAppState extends State<CardApp> {
                 _launched = _launchInWeb(toLaunchWeb);
               });
             },
-            child: Containers(
-                text: 'Linkedin', icon: Icons.phone_android_outlined),
-          ),
+            child: Containers.image(
+              text: 'Linkedin',
+              image: const Image(
+                image: AssetImage('assets/images/linkedin.png'),
+                color: Colors.deepOrange,
+                width: 27,
+              ),
+            ),
+          )
         ],
       ),
     );
