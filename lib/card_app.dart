@@ -67,7 +67,9 @@ class _CardAppState extends State<CardApp> {
       backgroundColor: Colors.lightBlueAccent.shade700,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
+          Spacer(),
           CircleAvatar(
             radius: 51,
             backgroundColor: Colors.deepOrange.shade500,
@@ -164,7 +166,18 @@ class _CardAppState extends State<CardApp> {
                 width: 27,
               ),
             ),
-          )
+          ),
+          const Spacer(),
+          const Padding(
+            padding: EdgeInsets.only(bottom: 40),
+            child: Text('Feito com ❤️ por @erimedeiros',
+                style: TextStyle(
+                    fontFamily: 'SourceSansPro',
+                    fontSize: 16,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 2.0)),
+          ),
         ],
       ),
     );
