@@ -14,14 +14,15 @@
 
 ### Funcionalidades
 
-- [x] Link direto com as redes sociais
+- [x] Link direto com as redes sociais usando url launcher
 - [x] AlertDialog
 - [ ] Receber dados e arquivos do celular para montar o card automaticamente(TO-DO)
+- [ ] Splash page usando apenas containers
 
 
 <h2> Telas </h2>  
 <p> Main page </p> 
-<img src="https://user-images.githubusercontent.com/73318684/178040105-494e67aa-09eb-437d-8a4f-12bfdf6b3f61.jpg" width="200" alt="Logo MainPage"/>   
+<img src="https://user-images.githubusercontent.com/73318684/178166397-8f99be34-a66b-423a-a509-4e963990ac7d.jpg" width="200" alt="Logo MainPage"/>   
 
 
 
