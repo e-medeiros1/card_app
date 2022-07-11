@@ -18,17 +18,12 @@
 - [x] AlertDialog
 - [ ] Receber dados e arquivos do celular para montar o card automaticamente(TO-DO)
 - [ ] Splash page usando apenas containers
+- [ ] Upar versão web para algum domínio gratuito e usar como linktree
 
 
 <h2> Telas </h2>  
 <p> Main page </p> 
-<img src="https://user-images.githubusercontent.com/73318684/178166397-8f99be34-a66b-423a-a509-4e963990ac7d.jpg" width="200" alt="Logo MainPage"/>   
-
-
-
-
-
-
+<img src="https://user-images.githubusercontent.com/73318684/178166582-9f6b99e9-e068-4e36-91b7-c46c1b774452.png" width="230" alt="Logo MainPage"/>   
 
    
    >Esse projeto foi desenvolvido ❤️ por **[@erimedeiros](https://www.linkedin.com/in/erimedeiros/)**,<br> 
