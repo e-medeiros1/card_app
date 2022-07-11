@@ -15,7 +15,6 @@
 ### Funcionalidades
 
 - [x] Link direto com as redes sociais usando url launcher
-- [x] AlertDialog
 - [ ] Receber dados e arquivos do celular para montar o card automaticamente(TO-DO)
 - [ ] Splash page usando apenas containers
 - [ ] Upar versão web para algum domínio gratuito e usar como linktree
