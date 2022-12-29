@@ -16,7 +16,6 @@ class Containers extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return Center(
       child: Container(
-        //Shadows
         decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(
@@ -24,7 +23,6 @@ class Containers extends StatelessWidget {
               spreadRadius: 1,
               blurRadius: 1,
               offset: const Offset(-3, 6),
-              // changes position of shadow
             ),
           ],
           borderRadius: BorderRadius.circular(20),
