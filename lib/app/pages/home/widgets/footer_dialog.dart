@@ -20,7 +20,7 @@ class _FooterDialogState extends State<FooterDialog> {
         onTap: () => dialog.customDialog(context),
         child: Container(
           height: MediaQuery.of(context).size.height * .05,
-          width: MediaQuery.of(context).size.width * .06,
+          width: 90,
           decoration: BoxDecoration(
               boxShadow: customBoxShadow,
               color: Colors.white,
