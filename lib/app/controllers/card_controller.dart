@@ -1,3 +1,4 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -5,23 +6,25 @@ class CardController extends GetxController {
   final toWhatsapp = Uri(
     scheme: 'https',
     host: 'wa.me',
-    path: '559981173168',
+    path: dotenv.env['WHATSAPP'],
   ).obs;
 
   final toEmail = Uri(
     scheme: 'mailto',
-    path: 'hsymetry@gmail.com',
+    path: dotenv.env['GMAIL'],
   ).obs;
 
   final toGithub = Uri(
     scheme: 'https',
     host: 'www.github.com',
-    path: '/e-medeiros1/',
+    path: dotenv.env['GITHUB'],
   ).obs;
 
-  final toLinkedin =
-      Uri(scheme: 'https', host: 'www.linkedin.com', path: '/in/erimedeiros/')
-          .obs;
+  final toLinkedin = Uri(
+          scheme: 'https',
+          host: 'www.linkedin.com',
+          path: dotenv.env['LINKEDIN'])
+      .obs;
 
   Future<void> launchWhatsapp(var url) async {
     if (!await launchUrl(
