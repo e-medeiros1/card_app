@@ -23,12 +23,7 @@ Link para o app: https://erimedeiros.vercel.app/#/
 ### Funcionalidades
 
 - [x] Link direto com as redes sociais usando url launcher
-- [x] Upar versão web para algum domínio gratuito e usar como linktree
-
-
-<h2> Telas </h2>  
-<p> Main page </p> 
-<img src="https://user-images.githubusercontent.com/73318684/178166582-9f6b99e9-e068-4e36-91b7-c46c1b774452.png" width="230" alt="Logo MainPage"/>   
+- [x] Versão web com a vercel para usar como linktree
 
    
    >Esse projeto foi desenvolvido ❤️ por **[@erimedeiros](https://www.linkedin.com/in/erimedeiros/)**,<br> 
