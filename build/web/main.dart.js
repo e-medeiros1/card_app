@@ -31943,7 +31943,7 @@ s=A.aei(a,r)
 A.A0(a,!0).om(A.ade(null,B.p,!0,null,new A.Lp(),a,null,s,!0,t.z))}}
 A.Lp.prototype={
 $1(a){var s=null,r=A.ly(15)
-return new A.lo(A.oG(A.Cv("Minha alternativa ao linktree",B.dp.Ps(18,B.ay,2),s,s),s,s),A.Cv("Uma forma de aplicar conceitos novos que aprendi ao longo dos meses de estudo\ne com uma refatora\xe7\xe3o que tr\xe1s complexidade ao c\xf3digo\n\n Feito com \u2764\ufe0f",B.dp.Pr(B.k,16,B.ay),B.j5,s),B.pO,new A.ct(r,B.n),B.R,s)},
+return new A.lo(A.oG(A.Cv("Minha alternativa ao linktree",B.dp.Ps(18,B.ay,2),s,s),s,s),A.Cv("Uma forma de aplicar conceitos novos que aprendi ao longo dos meses de estudo\ne com uma refatora\xe7\xe3o que traz complexidade ao c\xf3digo\n\n Feito com \u2764\ufe0f",B.dp.Pr(B.k,16,B.ay),B.j5,s),B.pO,new A.ct(r,B.n),B.R,s)},
 $S:108}
 A.tm.prototype={
 M(a){return A.Cv(this.c,this.d,null,null)}}
