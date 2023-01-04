@@ -1,7 +1,7 @@
 <p align="center">
       <img src="https://user-images.githubusercontent.com/73318684/178038062-99ed7040-b34a-4015-85a5-7a7b56a08940.png" width="150" alt="Logo JobTimer"/>
 
-<h2 align="center"> Card simples explorando widgets do flutter e url launcher! </br></br> 
+<h2 align="center"> Card simples com url launcher e GetX! </br></br> 
 
 <img src="https://img.shields.io/badge/dart-C.svg?style=for-the-badge&logo=dart&color=152030">
 <img src="https://img.shields.io/badge/flutter-C.svg?style=for-the-badge&logo=flutter&color=0468D7"> 
@@ -9,15 +9,21 @@
 
 <h2> Sobre </h2>
 <p >
-  Projeto para testar novas coisas dentro do flutter
+Link para o app: https://erimedeiros.vercel.app/#/  
+
+  Refatoração completa:  
+  
+- [x] Melhor legibilidade do código 
+- [x] Adicionado GetX para gerenciamento de estado
+- [x] Tratamento de erros feitos de forma correta
+- [x] Trata dados sensíveis com dotenv
+  
 </p>  
 
 ### Funcionalidades
 
 - [x] Link direto com as redes sociais usando url launcher
-- [ ] Receber dados e arquivos do celular para montar o card automaticamente(TO-DO)
-- [ ] Splash page usando apenas containers
-- [ ] Upar versão web para algum domínio gratuito e usar como linktree
+- [x] Upar versão web para algum domínio gratuito e usar como linktree
 
 
 <h2> Telas </h2>  
